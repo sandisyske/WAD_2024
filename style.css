@@ -1,0 +1,53 @@
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Posts section */
+#posts {
+    margin: 20px;
+}
+
+.post {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Form styles */
+form {
+    margin: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Flexbox for responsive design */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+}
